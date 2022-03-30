@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\jus_p\\Downloads\\Sexto Semestre\\Tecnologías para la introducción de soluciones\\78935\\soap-test\\soap-test.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jus_p\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "/root/78935/soap-test/soap-test.csproj": {}
+  },
+  "projects": {
+    "/root/78935/soap-test/soap-test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/78935/soap-test/soap-test.csproj",
+        "projectName": "soap-test",
+        "projectPath": "/root/78935/soap-test/soap-test.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/78935/soap-test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,7 +78,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         }
       }
     }

@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DXcsbQEpsfBD/zBWBlsMDtTif1n4z/cgGmyLUA1pby+GgywqmD8XvEGfIbDBnj/ebVRvRiyPfLuYxs8qqhdYIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jus_p\\Downloads\\Sexto Semestre\\Tecnologías para la introducción de soluciones\\78935\\soap-test\\soap-test.csproj",
@@ -21,6 +22,29 @@
     "C:\\Users\\jus_p\\.nuget\\packages\\system.servicemodel.http\\4.8.1\\system.servicemodel.http.4.8.1.nupkg.sha512",
     "C:\\Users\\jus_p\\.nuget\\packages\\system.servicemodel.primitives\\4.8.1\\system.servicemodel.primitives.4.8.1.nupkg.sha512",
     "C:\\Users\\jus_p\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+=======
+  "dgSpecHash": "TD7YnN1o8m5LoFaZzN7No4jccuFtYCyhzd7pfRIbshrCoq0AUGH/TNNbNDUYMPBYMTCXkh872kDoWtt3AhKBAw==",
+  "success": true,
+  "projectFilePath": "/root/78935/soap-test/soap-test.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/soapcore/1.1.0.26/soapcore.1.1.0.26.nupkg.sha512",
+    "/root/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/root/.nuget/packages/system.private.servicemodel/4.8.1/system.private.servicemodel.4.8.1.nupkg.sha512",
+    "/root/.nuget/packages/system.reflection.dispatchproxy/4.7.1/system.reflection.dispatchproxy.4.7.1.nupkg.sha512",
+    "/root/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.cryptography.cng/4.7.0/system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.cryptography.pkcs/4.7.0/system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.cryptography.xml/4.7.0/system.security.cryptography.xml.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
+    "/root/.nuget/packages/system.servicemodel.http/4.8.1/system.servicemodel.http.4.8.1.nupkg.sha512",
+    "/root/.nuget/packages/system.servicemodel.primitives/4.8.1/system.servicemodel.primitives.4.8.1.nupkg.sha512",
+    "/root/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
   ],
   "logs": []
 }

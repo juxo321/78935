@@ -285,6 +285,7 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Win32.SystemEvents.dll",
+<<<<<<< HEAD
         "lib/net461/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
@@ -296,6 +297,14 @@
         "ref/net472/Microsoft.Win32.SystemEvents.xml",
         "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+=======
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
@@ -312,6 +321,7 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/SoapCore.dll",
+<<<<<<< HEAD
         "lib/net5.0/SoapCore.xml",
         "lib/net6.0/SoapCore.dll",
         "lib/net6.0/SoapCore.xml",
@@ -321,6 +331,12 @@
         "lib/netstandard2.0/SoapCore.xml",
         "lib/netstandard2.1/SoapCore.dll",
         "lib/netstandard2.1/SoapCore.xml",
+=======
+        "lib/net6.0/SoapCore.dll",
+        "lib/netcoreapp3.1/SoapCore.dll",
+        "lib/netstandard2.0/SoapCore.dll",
+        "lib/netstandard2.1/SoapCore.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "logo.png",
         "soapcore.1.1.0.26.nupkg.sha512",
         "soapcore.nuspec"
@@ -339,11 +355,16 @@
         "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
         "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.CodeDom.dll",
+<<<<<<< HEAD
         "lib/net461/System.CodeDom.xml",
         "lib/net6.0/System.CodeDom.dll",
         "lib/net6.0/System.CodeDom.xml",
         "lib/netstandard2.0/System.CodeDom.dll",
         "lib/netstandard2.0/System.CodeDom.xml",
+=======
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "system.codedom.6.0.0.nupkg.sha512",
         "system.codedom.nuspec",
         "useSharedDesignerContext.txt"
@@ -370,7 +391,10 @@
         "ref/MonoTouch10/_._",
         "ref/net461/System.Drawing.Common.dll",
         "ref/netcoreapp3.0/System.Drawing.Common.dll",
+<<<<<<< HEAD
         "ref/netcoreapp3.0/System.Drawing.Common.xml",
+=======
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/netstandard2.0/System.Drawing.Common.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
@@ -400,12 +424,18 @@
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.Numerics.Vectors.dll",
+<<<<<<< HEAD
         "lib/net46/System.Numerics.Vectors.xml",
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.0/System.Numerics.Vectors.dll",
         "lib/netstandard1.0/System.Numerics.Vectors.xml",
         "lib/netstandard2.0/System.Numerics.Vectors.dll",
         "lib/netstandard2.0/System.Numerics.Vectors.xml",
+=======
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
         "lib/uap10.0.16299/_._",
@@ -416,6 +446,7 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/System.Numerics.Vectors.dll",
+<<<<<<< HEAD
         "ref/net45/System.Numerics.Vectors.xml",
         "ref/net46/System.Numerics.Vectors.dll",
         "ref/net46/System.Numerics.Vectors.xml",
@@ -424,6 +455,12 @@
         "ref/netstandard1.0/System.Numerics.Vectors.xml",
         "ref/netstandard2.0/System.Numerics.Vectors.dll",
         "ref/netstandard2.0/System.Numerics.Vectors.xml",
+=======
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
@@ -465,12 +502,18 @@
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net461/System.Reflection.DispatchProxy.dll",
+<<<<<<< HEAD
         "lib/net461/System.Reflection.DispatchProxy.xml",
         "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
         "lib/netcoreapp2.0/System.Reflection.DispatchProxy.xml",
         "lib/netstandard1.3/System.Reflection.DispatchProxy.dll",
         "lib/netstandard2.0/System.Reflection.DispatchProxy.dll",
         "lib/netstandard2.0/System.Reflection.DispatchProxy.xml",
+=======
+        "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard2.0/System.Reflection.DispatchProxy.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
@@ -478,6 +521,7 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net461/System.Reflection.DispatchProxy.dll",
+<<<<<<< HEAD
         "ref/net461/System.Reflection.DispatchProxy.xml",
         "ref/netstandard1.3/System.Reflection.DispatchProxy.dll",
         "ref/netstandard1.3/System.Reflection.DispatchProxy.xml",
@@ -494,6 +538,11 @@
         "ref/netstandard2.0/System.Reflection.DispatchProxy.xml",
         "ref/uap10.0.16299/System.Reflection.DispatchProxy.dll",
         "ref/uap10.0.16299/System.Reflection.DispatchProxy.xml",
+=======
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
@@ -518,6 +567,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.AccessControl.dll",
         "lib/net461/System.Security.AccessControl.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.AccessControl.xml",
         "lib/netstandard1.3/System.Security.AccessControl.dll",
         "lib/netstandard2.0/System.Security.AccessControl.dll",
@@ -539,6 +589,15 @@
         "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
         "ref/netstandard2.0/System.Security.AccessControl.dll",
         "ref/netstandard2.0/System.Security.AccessControl.xml",
+=======
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/uap10.0.16299/_._",
         "runtimes/win/lib/net46/System.Security.AccessControl.dll",
         "runtimes/win/lib/net461/System.Security.AccessControl.dll",
@@ -566,6 +625,7 @@
         "lib/MonoTouch10/_._",
         "lib/net46/System.Security.Cryptography.Cng.dll",
         "lib/net461/System.Security.Cryptography.Cng.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.Cryptography.Cng.xml",
         "lib/net462/System.Security.Cryptography.Cng.dll",
         "lib/net462/System.Security.Cryptography.Cng.xml",
@@ -574,13 +634,23 @@
         "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
         "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
         "lib/netcoreapp3.0/System.Security.Cryptography.Cng.xml",
+=======
+        "lib/net462/System.Security.Cryptography.Cng.dll",
+        "lib/net47/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "lib/netstandard1.3/System.Security.Cryptography.Cng.dll",
         "lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
         "lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Cng.dll",
+<<<<<<< HEAD
         "lib/netstandard2.0/System.Security.Cryptography.Cng.xml",
         "lib/netstandard2.1/System.Security.Cryptography.Cng.dll",
         "lib/netstandard2.1/System.Security.Cryptography.Cng.xml",
+=======
+        "lib/netstandard2.1/System.Security.Cryptography.Cng.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
@@ -590,6 +660,7 @@
         "ref/MonoTouch10/_._",
         "ref/net46/System.Security.Cryptography.Cng.dll",
         "ref/net461/System.Security.Cryptography.Cng.dll",
+<<<<<<< HEAD
         "ref/net461/System.Security.Cryptography.Cng.xml",
         "ref/net462/System.Security.Cryptography.Cng.dll",
         "ref/net462/System.Security.Cryptography.Cng.xml",
@@ -601,13 +672,24 @@
         "ref/netcoreapp2.1/System.Security.Cryptography.Cng.xml",
         "ref/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
         "ref/netcoreapp3.0/System.Security.Cryptography.Cng.xml",
+=======
+        "ref/net462/System.Security.Cryptography.Cng.dll",
+        "ref/net47/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/netstandard1.3/System.Security.Cryptography.Cng.dll",
         "ref/netstandard1.4/System.Security.Cryptography.Cng.dll",
         "ref/netstandard1.6/System.Security.Cryptography.Cng.dll",
         "ref/netstandard2.0/System.Security.Cryptography.Cng.dll",
+<<<<<<< HEAD
         "ref/netstandard2.0/System.Security.Cryptography.Cng.xml",
         "ref/netstandard2.1/System.Security.Cryptography.Cng.dll",
         "ref/netstandard2.1/System.Security.Cryptography.Cng.xml",
+=======
+        "ref/netstandard2.1/System.Security.Cryptography.Cng.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
@@ -644,6 +726,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.Cryptography.Pkcs.dll",
         "lib/net461/System.Security.Cryptography.Pkcs.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.Cryptography.Pkcs.xml",
         "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll",
         "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll",
@@ -665,6 +748,20 @@
         "ref/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
         "ref/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
         "ref/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+=======
+        "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll",
+        "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+        "ref/net46/System.Security.Cryptography.Pkcs.dll",
+        "ref/net461/System.Security.Cryptography.Pkcs.dll",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll",
+        "ref/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.Pkcs.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "ref/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "runtimes/win/lib/net46/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.xml",
@@ -692,6 +789,7 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/System.Security.Cryptography.Xml.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.Cryptography.Xml.xml",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
@@ -699,6 +797,11 @@
         "ref/net461/System.Security.Cryptography.Xml.xml",
         "ref/netstandard2.0/System.Security.Cryptography.Xml.dll",
         "ref/netstandard2.0/System.Security.Cryptography.Xml.xml",
+=======
+        "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
+        "ref/net461/System.Security.Cryptography.Xml.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Xml.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "system.security.cryptography.xml.4.7.0.nupkg.sha512",
         "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt",
@@ -715,6 +818,7 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/System.Security.Permissions.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.Permissions.xml",
         "lib/netcoreapp3.0/System.Security.Permissions.dll",
         "lib/netcoreapp3.0/System.Security.Permissions.xml",
@@ -726,6 +830,13 @@
         "ref/netcoreapp3.0/System.Security.Permissions.xml",
         "ref/netstandard2.0/System.Security.Permissions.dll",
         "ref/netstandard2.0/System.Security.Permissions.xml",
+=======
+        "lib/netcoreapp3.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/netcoreapp3.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "system.security.permissions.4.7.0.nupkg.sha512",
         "system.security.permissions.nuspec",
         "useSharedDesignerContext.txt",
@@ -743,6 +854,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/System.Security.Principal.Windows.dll",
         "lib/net461/System.Security.Principal.Windows.dll",
+<<<<<<< HEAD
         "lib/net461/System.Security.Principal.Windows.xml",
         "lib/netstandard1.3/System.Security.Principal.Windows.dll",
         "lib/netstandard2.0/System.Security.Principal.Windows.dll",
@@ -766,6 +878,16 @@
         "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
         "ref/netstandard2.0/System.Security.Principal.Windows.dll",
         "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+=======
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "ref/uap10.0.16299/_._",
         "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
         "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
@@ -899,9 +1021,13 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netcoreapp3.0/System.Windows.Extensions.dll",
+<<<<<<< HEAD
         "lib/netcoreapp3.0/System.Windows.Extensions.xml",
         "ref/netcoreapp3.0/System.Windows.Extensions.dll",
         "ref/netcoreapp3.0/System.Windows.Extensions.xml",
+=======
+        "ref/netcoreapp3.0/System.Windows.Extensions.dll",
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
         "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.xml",
         "system.windows.extensions.4.7.0.nupkg.sha512",
@@ -917,11 +1043,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\jus_p\\.nuget\\packages\\": {}
+=======
+    "/root/.nuget/packages/": {}
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\jus_p\\Downloads\\Sexto Semestre\\Tecnologías para la introducción de soluciones\\78935\\soap-test\\soap-test.csproj",
       "projectName": "soap-test",
       "projectPath": "C:\\Users\\jus_p\\Downloads\\Sexto Semestre\\Tecnologías para la introducción de soluciones\\78935\\soap-test\\soap-test.csproj",
@@ -930,6 +1061,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jus_p\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "/root/78935/soap-test/soap-test.csproj",
+      "projectName": "soap-test",
+      "projectPath": "/root/78935/soap-test/soap-test.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/78935/soap-test/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/root/.nuget/NuGet/NuGet.Config"
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -976,7 +1117,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+>>>>>>> 935ed2ba14f3492de0aaa861cbccfb7b03aefbbb
       }
     }
   }
