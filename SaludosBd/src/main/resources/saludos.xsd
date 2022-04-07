@@ -32,41 +32,35 @@
     </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="ModificarSaludoRequest">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="id" type="xs:int"/>
-        <xs:element name="nuevoNombre" type="xs:string"/>
-      </xs:sequence>
+ <!--Modificar-->
+ <xs:element name="ModificarSaludoRequest">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="nombre" type="xs:string" />
+    </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ModificarSaludoResponse">
     <xs:complexType>
-      <xs:sequence>
-        <xs:element name="id" type="xs:int"/>
-        <xs:element name="nombre" type="xs:string"/>
+     <xs:sequence>
+        <xs:element name="respuesta" type="xs:string"/>
       </xs:sequence>
     </xs:complexType>
-  </xs:element>
-  <xs:element name="BorrarSaludoRequest">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="id" type="xs:int"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="BorrarSaludoResponse">
-    <xs:complexType>
+   </xs:element>
+ <!--Eliminar-->
+ <xs:element name="EliminarSaludoRequest">
+  <xs:complexType>
     <xs:sequence>
-      <xs:element name="saludos" maxOccurs="unbounded">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="id" type="xs:int"></xs:element>
-                <xs:element name="nombre" type="xs:string"></xs:element>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
+      <xs:element name="id" type="xs:int" />            
     </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+  </xs:complexType>
+ </xs:element>
+ <xs:element name="EliminarSaludoResponse">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="respuesta" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+ </xs:element>
 </xs:schema> 

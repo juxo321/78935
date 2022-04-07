@@ -12,6 +12,8 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 import https.t4is_uv_mx.saludos.BorrarSaludoRequest;
 import https.t4is_uv_mx.saludos.BorrarSaludoResponse;
 import https.t4is_uv_mx.saludos.BuscarSaludosResponse;
+import https.t4is_uv_mx.saludos.EliminarSaludoRequest;
+import https.t4is_uv_mx.saludos.EliminarSaludoResponse;
 import https.t4is_uv_mx.saludos.ModificarSaludoRequest;
 import https.t4is_uv_mx.saludos.ModificarSaludoResponse;
 import https.t4is_uv_mx.saludos.SaludarRequest;
@@ -55,25 +57,27 @@ public class SaludosEndPoint {
         return respuesta;
     }
 
-    @PayloadRoot(localPart = "ModificarSaludoRequest", namespace = "https://t4is.uv.mx/saludos")
+    @PayloadRoot(localPart = "ModificarSaludoRequest" ,namespace = "https://t4is.uv.mx/saludos")
     @ResponsePayload
-    public ModificarSaludoResponse modificarSaludo(@RequestPayload ModificarSaludoRequest peticion){
-        ModificarSaludoResponse respuesta = new ModificarSaludoResponse();
-        Saludadores e = new Saludadores();
-        e.setId(peticion.getId());
-        e.setNombre(peticion.getNuevoNombre());
-        isaludadores.save(e);
+    public ModificarSaludoResponse modificarSaludo(@RequestPayload ModificarSaludoRequest peticion){       
+        ModificarSaludoResponse respuesta = new ModificarSaludoResponse(); 
+        Saludadores saludo = new Saludadores();
+        saludo.setId(peticion.getId());
+        saludo.setNombre(peticion.getNombre());
+        isaludadores.save(saludo);
+        respuesta.setRespuesta("Saludo modificado");        
         return respuesta;
     }
 
-    @PayloadRoot(localPart = "BorrarSaludoRequest", namespace = "https://t4is.uv.mx/saludos")
+    @PayloadRoot(localPart = "EliminarSaludoRequest", namespace = "https://t4is.uv.mx/saludos")
     @ResponsePayload
-    public BorrarSaludoResponse borrarSaludo(@RequestPayload BorrarSaludoRequest peticion){
-        BorrarSaludoResponse respuesta = new BorrarSaludoResponse();
+    public EliminarSaludoResponse eliminarSaludo(@RequestPayload EliminarSaludoRequest peticion){
+        EliminarSaludoResponse respuesta = new EliminarSaludoResponse();
         isaludadores.deleteById(peticion.getId());
+        respuesta.setRespuesta("Saludo eliminado");
         return respuesta;
-
     }
+
 
 }
 
