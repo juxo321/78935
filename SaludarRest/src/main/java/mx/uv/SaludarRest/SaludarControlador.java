@@ -6,12 +6,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.ui.Model;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 @RestController
 public class SaludarControlador {
+
+    List<Saludo> listaSaludos = new ArrayList<Saludo>();
+    int contador =0;
+
+
     @RequestMapping("/")
     public String home(){
         return "Hola mundo home(/)";
@@ -51,11 +57,17 @@ public class SaludarControlador {
    
     }
 
-    @GetMapping("/saludarTareas")
-	public String saludarTareas(@RequestParam(name="nombre", defaultValue = "pablito") Model modelo, String nombre){
-		modelo.addAttribute("nombre", nombre);
-		return "Saludando";
-	}
+
+    @GetMapping("/saludarTarea")
+    public String saludarTarea(@RequestParam(name="nombre",defaultValue="Abel") String nombre){
+        Saludo saludo = new Saludo();
+        saludo.setNombre(nombre);
+        saludo.setId(contador);
+        listaSaludos.add(saludo);
+        contador++;
+        return " Hola " + nombre;
+    }
+
 
 
 
