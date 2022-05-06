@@ -68,6 +68,30 @@ public class SaludarControlador {
         return " Hola " + nombre;
     }
 
+    @GetMapping("/lista")
+    public List<Saludo> lista(){
+        return listaSaludos;
+    } 
+
+    @GetMapping("/modificar")
+    public String modificar(@RequestParam(name="id",defaultValue="") int id, @RequestParam(name="nombre",defaultValue="") String nombre){
+
+        Saludo saludo = new Saludo();
+        saludo.setId(id);
+        saludo.setNombre(nombre);
+        listaSaludos.set(id,saludo);
+        return "Se ha modificado con exito";
+    }
+
+    @GetMapping("/eliminar")
+    public String eliminar(@RequestParam(name="id",defaultValue="") int id){
+        Saludo saludo = new Saludo();
+        saludo.setId(id);
+        listaSaludos.remove(saludo.getId());
+        return "Se ha eliminado con exito";
+    }
+
+
 
 
 
